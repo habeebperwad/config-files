@@ -1,0 +1,40 @@
+##############################################
+# Git configration file.
+# File: ~/.gitconfig
+# Thanks to the great Linus Benedict Torvalds.
+# Configure 'g' as alias for 'git'.
+##############################################
+
+[user]
+
+    # git config --global user.name 'Habeeb Perwad'
+    name = Habeeb Perwad
+
+    # git config --global user.email habeebperwad@example.com
+    email = habeebperwad@example.com
+
+
+[diff]
+
+    # git config --global diff.tool vimdiff
+    tool = vimdiff
+
+
+[difftool]
+
+    # git config --global difftool.prompt false
+    prompt = false
+
+[alias]
+
+    # git config --global alias.s status
+    s = status
+
+    # git config --global alias.a add
+    a = add 
+
+    # git config --global alias.c commit
+    c = commit
+
+    # git config --global alias.l log
+    l = log 
