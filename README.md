@@ -9,4 +9,4 @@ Here some of my configuration files.
 
 To quickly copy the files
 -------------------------
-See the file  get.config-files.habeebperwad.github.php to copy any file quickly.
+See the file  [https://github.com/habeebperwad/config-files/blob/master/get.config-files.habeebperwad.github.php](get.config-files.habeebperwad.github.php) to copy any file quickly.
