@@ -33,10 +33,10 @@ set incsearch
 
 
 " Stop arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
 
 " Tab completion for file names.
 set wildmode=longest:full,full
@@ -64,6 +64,15 @@ highlight CursorLine term=none cterm=none ctermbg=lightgray
 set cursorline
 
 filetype plugin indent on
+
+highlight ColorColumn ctermbg=lightgray
+set colorcolumn=80
+
+let mapleader=","
+
+au FileType python setlocal formatprg=autopep8\ -
+au FileType css setlocal formatprg=css-beautify\ -f\ -
+noremap <Leader>= Ggqgg
 
 " Machine specific vimrc goes here.
 try
