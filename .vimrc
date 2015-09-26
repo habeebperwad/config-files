@@ -33,10 +33,10 @@ set incsearch
 
 
 " Stop arrow keys
-noremap <up> <nop>
-noremap <down> <nop>
-noremap <left> <nop>
-noremap <right> <nop>
+"noremap <up> <nop>
+"noremap <down> <nop>
+"noremap <left> <nop>
+"noremap <right> <nop>
 
 " Tab completion for file names.
 set wildmode=longest:full,full
@@ -72,7 +72,7 @@ let mapleader=","
 
 au FileType python setlocal formatprg=autopep8\ -
 au FileType css setlocal formatprg=css-beautify\ -f\ -
-noremap <Leader>= Ggqgg
+noremap <Leader>= gggqG
 
 " Machine specific vimrc goes here.
 try
