@@ -7,7 +7,7 @@ PS1='\W:'
  
 # Richard M. Stallman and David MacKenzie.
 alias l='ls -la'
-
+MY_DIR=~/HABEEBatPERWADdotIN
 # Junio C Hamano.
-alias g='git -f ~/.gitconfig_habeebperwad'
-alias v='vim -u ~/.vimrc_habeebperwad'
+alias g='git' # -f $MY_DIR/.gitconfig_habeebperwad'
+alias v='vim -u $MY_DIR/.vimrc_habeebperwad'
