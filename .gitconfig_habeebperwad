@@ -8,10 +8,10 @@
 [user]
 
     # git config --global user.name 'Habeeb Perwad'
-    name = Habeeb Perwad
+    #name = Habeeb Perwad
 
     # git config --global user.email habeebperwad@example.com
-    email = habeebperwad@example.com
+    #email = habeebperwad@example.com
 
 
 [diff]
