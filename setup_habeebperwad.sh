@@ -15,7 +15,7 @@ echo "Changed directory to:" $MY_DIR
 # downalod curl if needed.
 if ! type curl &> /dev/null; then
 echo 'downloaing curl.'
-sudo apt-get install curl
+sudo apt-get -y install curl
 echo 'no curl'
 fi
 
