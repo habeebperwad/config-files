@@ -19,6 +19,13 @@ sudo apt-get -y install curl
 echo 'no curl'
 fi
 
+# downalod vim if needed.
+if ! type vim &> /dev/null; then
+echo 'downloaing vim'
+sudo apt-get -y install vim
+echo 'no curl'
+fi
+
 # Download files.
 FILES_URL_PATH='https://raw.githubusercontent.com/habeebperwad/config-files/master/'
 curl -O "$FILES_URL_PATH/.bashrc_habeebperwad"
