@@ -2,8 +2,12 @@
 # File: ~/.bashrc
 ##################
 
+# Set command prompt.
+PS1='\W:'
+ 
 # Richard M. Stallman and David MacKenzie.
 alias l='ls -la'
 
 # Junio C Hamano.
-alias g='git'
+alias g='git -f ~/.gitconfig_habeebperwad'
+alias v='vim -u ~/.vimrc_habeebperwad'
