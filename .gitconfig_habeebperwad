@@ -27,14 +27,10 @@
 
 [alias]
 
-    # git config --global alias.s status
+
+    # git config --global alias.c "commit -m"
+    c = commit -m
     s = status
-
-    # git config --global alias.a add
     a = add 
-
-    # git config --global alias.c commit
-    c = commit
-
-    # git config --global alias.l log
     l = log 
+    m = submodule update
